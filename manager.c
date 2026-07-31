@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+#define MAXVALUE 100
+
+
 struct Book {
 	char name[75];
 	char type[30];
@@ -18,18 +21,18 @@ struct Client{
 };
 
 int main(){
-	
+	int limitRange = MAX;	
 	int a = 0;
 	while( a < 1){
 		printf("---------------------------------------------");
 		printf("\n---------- LIBRARY MANAGER ------------------");
-		for 
+		for(int b = 0; a < limitRange; a++){
+			print("\n%s %d   ",Book.name[a],Book.type[a] );
+		} 
 		scanf("%d", a );
 		int exit;
 		if(exit == 4){
 			a++;
 		}
-
-
     }
-}	
+}
