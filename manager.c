@@ -21,15 +21,15 @@ int main(){
 	
 	int a = 0;
 	while( a < 1){
-		
+		printf("---------------------------------------------");
+		printf("\n---------- LIBRARY MANAGER ------------------");
+		for 
+		scanf("%d", a );
 		int exit;
 		if(exit == 4){
 			a++;
 		}
 
 
-}
-	
-
-
-	
+    }
+}	
